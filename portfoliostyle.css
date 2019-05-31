@@ -9,3 +9,10 @@ th,td {
 	border: 1px solid black;
 	padding: 5px;
 }
+#sector-col, #ticker-col, #industry-col, #dilutedeps-col, #growth-col, #medianpe-col, #industrype-col, #competitorpe-col {
+	width:3%;
+}
+
+#targetgraham-col, #targetindustry-col, #targetcompetitors-col, #targetyears-col, #targetaverage-col {
+	width:10%;
+}
