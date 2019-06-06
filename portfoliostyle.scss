@@ -11,7 +11,11 @@ p {
 }
 ul>li {
 	color: $color;
-	text-decoration: underline;
+}
+ul {
+	li{
+		text-decoration: underline;
+	}
 }
 table {
 	border-collapse: collapse;
