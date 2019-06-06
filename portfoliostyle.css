@@ -13,12 +13,21 @@ ul > li {
 ul ol li {
   text-decoration: underline; }
 
-table {
+.portfoliotable, .industrialstable, .staplestable, .discretionarytable {
   border-collapse: collapse;
   margin: 10px;
   font-weight: bold;
-  background-color: white;
-  opacity: .7; }
+  opacity: .7;
+  background-color: white; }
+
+.industrialstable tr:nth-child(even) {
+  background-color: #cccccc; }
+
+.staplestable tr:nth-child(even) {
+  background-color: #cccccc; }
+
+.discretionarytable tr:nth-child(even) {
+  background-color: #cccccc; }
 
 th, td {
   border: 1px solid black;
