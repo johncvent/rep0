@@ -7,10 +7,6 @@ p {
 	font-family: Arial, sans-serif;
 	margin:5px;
 }
-ul li {
-	color: red;
-	text-decoration: underline;
-}
 ul>li {
 	color: green;
 	text-decoration: underline;
