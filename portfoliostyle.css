@@ -1,55 +1,53 @@
 h1, h2 {
-	color: red;
-	font-family: Arial, sans-serif;
-	margin:10px;
-}
+  color: red;
+  font-family: Arial, sans-serif;
+  margin: 10px; }
+
 p {
-	font-family: Arial, sans-serif;
-	margin:5px;
-}
-ul>li {
-	color: red;
-	text-decoration: underline;
-}
+  font-family: Arial, sans-serif;
+  margin: 5px; }
+
+ul > li {
+  color: red;
+  text-decoration: underline; }
+
 table {
-	border-collapse: collapse;
-	margin: 10px;
-	font-weight: bold;
-	background-color: white;
-	opacity: .7;
-}
+  border-collapse: collapse;
+  margin: 10px;
+  font-weight: bold;
+  background-color: white;
+  opacity: .7; }
+
 th, td {
-	border: 1px solid black;
-	padding: 5px;
-}
+  border: 1px solid black;
+  padding: 5px; }
+
 .sector-col, .ticker-col, .industry-col, .dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col {
-	width:1%;
-}
+  width: 1%; }
+
 .targetgraham-col, .targetindustry-col, .targetcompetitors-col, .targetyears-col, .targetaverage-col {
-	width:9%;
-}
+  width: 9%; }
+
 .name-col {
-	width:12%;
-}
+  width: 12%; }
+
 .column {
   float: left;
   width: 33.33%;
   padding: 0px 5px 5px 5px;
-	margin: 0px 10px 10px 10px;
-}
+  margin: 0px 10px 10px 10px; }
+
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
-  display: table;
-}
-@media (max-width:1500px) {
-	.dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col {
-			display: none;
-	}
-}
-@media (max-width:1000px) {
-	.dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col, .targetgraham-col, .targetindustry-col, .targetcompetitors-col, .targetyears-col {
-			display: none;
-	}
-}
+  display: table; }
+
+@media (max-width: 1500px) {
+  .dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col {
+    display: none; } }
+@media (max-width: 1000px) {
+  .dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col, .targetgraham-col, .targetindustry-col, .targetcompetitors-col, .targetyears-col {
+    display: none; } }
+
+/*# sourceMappingURL=portfoliostyle.css.map */
