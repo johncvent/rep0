@@ -10,7 +10,7 @@ p {
 ul > li {
   color: red; }
 
-ul li {
+ul ol li {
   text-decoration: underline; }
 
 table {

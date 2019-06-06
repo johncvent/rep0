@@ -13,8 +13,10 @@ ul>li {
 	color: $color;
 }
 ul {
-	li{
-		text-decoration: underline;
+	ol {
+		li{
+			text-decoration: underline;
+		}
 	}
 }
 table {
