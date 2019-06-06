@@ -18,13 +18,13 @@ th,td {
 	border: 1px solid black;
 	padding: 5px;
 }
-#sector-col, #ticker-col, #industry-col, #dilutedeps-col, #growth-col, #medianpe-col, #industrype-col, #competitorpe-col {
+.sector-col, .ticker-col, .industry-col, .dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col {
 	width:1%;
 }
-#targetgraham-col, #targetindustry-col, #targetcompetitors-col, #targetyears-col, #targetaverage-col {
+.targetgraham-col, .targetindustry-col, .targetcompetitors-col, .targetyears-col, .targetaverage-col {
 	width:9%;
 }
-#name-col {
+.name-col {
 	width:12%;
 }
 .column {
@@ -38,4 +38,14 @@ th,td {
   content: "";
   clear: both;
   display: table;
+}
+@media (max-width:1500px) {
+	.dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col {
+			display: none;
+	}
+}
+@media (max-width:1000px) {
+	.dilutedeps-col, .growth-col, .medianpe-col, .industrype-col, .competitorpe-col, .targetgraham-col, .targetindustry-col, .targetcompetitors-col, .targetyears-col {
+			display: none;
+	}
 }
