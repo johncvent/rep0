@@ -1,0 +1,1 @@
+This website shows all of my stock market investments.  The index file shows a summary of the whole portfolio.  The three other html files show just the information for a particular sector that I am invested in.  At the top of each html page, there are links that allow easy navigation between the pages.
